@@ -1,0 +1,28 @@
+/* BottomBar.css */
+
+.bottom-bar {
+    background-color: #970000; /* Personaliza el color de fondo */
+    color: #970000; /* Personaliza el color del texto */
+   
+
+  }
+  
+  .bottom-bar-brand {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  .bottom-bar-icon {
+    font-size: 24px; /* Personaliza el tamaño de los íconos */
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  .center-icon {
+    text-align: center;
+    
+  }
+  
+  

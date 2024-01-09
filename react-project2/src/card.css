@@ -1,0 +1,55 @@
+
+
+.location-card-container {
+  display: flex;
+  height: 100vh; /* Establece la altura completa de la pantalla */
+  float: left;
+}
+
+.location-card-scroll {
+  overflow-y: auto; /* Agrega un scroll vertical si es necesario */
+  max-height: 100vh; /* Establece la altura máxima para la sección de las tarjetas */
+}
+
+.location-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-map {
+  flex: 1;
+}
+
+
+
+/*ESTILO PARA IMAGEN*/
+.card-title {
+  font-weight: normal; /* o el valor de peso de fuente que desees */
+}
+  /*TERMINA ESTILO PARA IMAGEN*/
+
+  /*PARA EL BOTON*/
+  .card-button {
+    background-color: #ca0000; /* Color de fondo del botón normal */
+    border-color: #ca0000; /* Color del borde del botón normal */
+    color: #fdfdfd; /* Color del texto del botón normal */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Agrega transiciones suaves */
+  }
+  .card-button:hover {
+    transform: scale(1.1); /* Ajusta el valor según lo que desees */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+
+    background-color: #f7a233; /* Nuevo color de fondo al pasar el mouse sobre el botón */
+    border-color: #f7a233; /* Nuevo color del borde al pasar el mouse sobre el botón */
+    color: #000000; /* Nuevo color del texto al pasar el mouse sobre el botón */
+  }
+
+  .icon {
+    margin-right: 8px; /* Ajusta el espacio entre el icono y el texto */
+    transition: margin-right 0.3s ease; /* Agrega una transición suave */
+  }
+  
+  .card-button:hover .icon {
+    margin-right: 16px; /* Ajusta el espacio cuando se pasa el mouse sobre el botón */
+  }
+  /*TERMINA ESTILO PARA BOTON*/

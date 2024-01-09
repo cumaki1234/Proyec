@@ -1,0 +1,18 @@
+.combo-container {
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d9d9d9;
+  background: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+.Input {
+  width: 100px;
+  margin-bottom: 16px;
+  /* Añade un margen inferior para separar los elementos */
+}
